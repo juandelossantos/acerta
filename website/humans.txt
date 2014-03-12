@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    David Emilio Sierra Puentes -- Frontend web developer - freelance -- @morrisonking
 
 # THANKS
 
