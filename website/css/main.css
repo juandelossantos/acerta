@@ -149,6 +149,7 @@ nav {
     width:100%;
     background-color: #ccc;
     clear: both;
+    margin:0;
 }
 .contenido {
     width: 90%;
@@ -168,6 +169,11 @@ nav {
     margin-left:2%;
 }
 
+.banner-img1 {
+    background-image: url('../img/slider0.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 
 
@@ -191,19 +197,18 @@ nav {
     
     color: rgba(255,255,255,.6);
     text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
-    
-    background: #5b4d3d;
-    box-shadow: 0 1px 2px rgba(0,0,0,.25);
 }
     .banner ul {
         list-style: none;
         width: 300%;
+        padding: 0;
+        margin: 0;
     }
     .banner ul li {
         display: block;
         float: left;
         width: 33%;
-        padding: 160px 0 110px;
+        padding: 0px 10px 0px;
         
         min-height: 350px;
         
