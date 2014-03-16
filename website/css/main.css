@@ -5,6 +5,8 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+/* Fuentes */
+@import url(http://fonts.googleapis.com/css?family=Sintony:400,700);
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -95,26 +97,33 @@ textarea {
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
+body {
+    font-family: 'Sintony', sans-serif;
+}
 
 .header {
     width: 100%;
     height: 100px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 4px solid #9d0021;
+    background-image: url('../img/fabric_plaid.png');
 
 }
 
 .logo {
-    width:15%;
+    width:20%;
+    height: 70px;
     float: left;
-    border: 1px solid #333;
-    margin:15px 1%;
-    background-color: #ff0000;
+    margin:3px 1%;
+    background-image: url('../img/logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 nav {
    display: inline-block;
-   margin:15px 1%;
-   width: auto; 
+    margin: 0px 1%;
+    height: 100px;
 
 }
 .menu-sup {
@@ -127,16 +136,53 @@ nav {
 }
 .menu-sup li{
     display: inline;
-    }
+}
 
-.menu-sup li a {
+.menu-item {
     text-decoration: none;
     display: inline-block;
-    padding-top: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin:0;
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: -6px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    
+}
+.menu-item:hover  {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: -6px;
+    text-transform: uppercase;
+    background-color:#9d0021;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(150, 130, 132, 0.75);
+    -moz-box-shadow:    2px 2px 4px 0px rgba(150, 130, 132, 0.75);
+    box-shadow:         2px 2px 4px 0px rgba(150, 130, 132, 0.75);
+}
 
+.menu-act{
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: -6px;
+    text-transform: uppercase;
+    background-color:#9d0021;
+    color: #fff;
+    font-weight: bold;
 }
 
 .buscador {
@@ -146,13 +192,13 @@ nav {
     margin-right: 15px;
 }
 .contieneslider{
-    width:100%;
+    max-width:1280px;
     background-color: #ccc;
     clear: both;
-    margin:0;
+    margin:0 auto;
 }
 .contenido {
-    width: 90%;
+    max-width: 1280px;
     background-color: #777;
     margin:0 auto;
 }
@@ -170,10 +216,9 @@ nav {
 }
 
 .banner-img1 {
-    background-image: url('../img/slider0.png');
+    background-image: url('../img/slider0.jpg');
     background-repeat: no-repeat;
-    background-position: bottom;
-}
+    }
 
 
 
