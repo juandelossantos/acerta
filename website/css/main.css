@@ -1036,8 +1036,160 @@ nav.inf{
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-    
+@media only screen and (max-width : 480px) {
+   .header {
+        display:block;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        border-bottom: 4px solid #9d0021;
+        background-image: url('../img/fabric_plaid.png');
+    }
+
+    .logo {
+        display: block;
+        width:90%;
+        float: none;
+        clear: both;
+        text-align: center;
+        margin:0 auto;
+    }
+
+    .buscador {
+        float: none;
+        text-align: center;
+        margin:15px auto;
+    }
+
+    nav.sup {
+        display: inline-block;
+        margin: 0 auto;
+        clear: both;
+        height:auto;
+        width: 100%;
+        border-top: 1px solid #9d0021;
+        font-size: 14px;
+    }
+
+    .menu-sup {
+        text-align: center;
+        padding: 0;
+        margin:0;
+    }
+    .menu-sup ul {
+        display: block;
+        margin:0 auto;
+    }
+    .menu-sup li{
+        display: block;
+        font-size: 18px;
+        border-top:1px solid #333;
+    }
+
+    .menu-item {
+        text-decoration: none;
+        display: block;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        margin-left: -6px;
+        text-transform: uppercase;
+        width: 100%
+        color: #333333;
+        font-weight: bold;
+        transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        
+    }
+    .menu-item:hover  {
+        text-decoration: none;
+        display: block;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        margin-left: -6px;
+        text-transform: uppercase;
+        width: 100%;
+        background-color:#9d0021;
+        color: #fff;
+        font-weight: bold;
+        -webkit-box-shadow: 2px 2px 4px 0px rgba(150, 130, 132, 0.75);
+        -moz-box-shadow:    2px 2px 4px 0px rgba(150, 130, 132, 0.75);
+        box-shadow:         2px 2px 4px 0px rgba(150, 130, 132, 0.75);
+    }
+
+    .menu-act{
+        text-decoration: none;
+        display: inline-block;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        margin-left: -6px;
+        width: 100%;
+        text-transform: uppercase;
+        background-color:#9d0021;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .contieneslider{
+        display: none;
+    }
+
+    .col1, .col2, .col3 {
+        display: block;
+        width: 100%;
+        margin:0 auto;
+        clear: both;
+    }
+
+    .tels {
+    display:block;
+    width:100%;
+    float: none;
+    margin: 0 2%;
+    height: auto;
+    background-image: url('../img/phone.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 35px;
+    padding-top: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.dir {
+    display:block;
+    width:100%;
+    float: left;
+    margin-left:2%;
+    height: auto;
+    background-image: url('../img/pin-map.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 35px;
+    padding-top: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.q {
+    display:block;
+    width: 100%;
+    height: 80px;
+    float:none;
+    clear: both;
+    margin-right: 2%;
+    background-image: url('../img/bureau-veritas.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+} 
 }
 
 /* Smartphones (portrait) ----------- */
