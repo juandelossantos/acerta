@@ -22,9 +22,9 @@
         <!-- Add your site or application content here -->
         <header class="header clearfix">
             <div class="logo"></div>
-            <nav>
+            <nav class="sup">
                 <ul class="menu-sup">
-                    <li><a class="menu-act" href="#">Inicio</a></li>
+                    <li><a class="menu-item" href="quienes.html">Quienes Somos</a></li>
                     <li><a class="menu-item" href="metalemcanica.html">Metalmecánica</a></li>
                     <li><a class="menu-item" href="ambiental.html">Ambiental</a></li>
                     <li><a class="menu-item" href="electrico.html">Eléctrico</a></li>
@@ -32,52 +32,95 @@
                     <li><a class="menu-item" href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
-            <div class="buscador">
-                <label for="buscar" class="buscar">Buscar:</label>
-                <input type="text" name="buscar" id="buscar" value="Busqueda de producto">
-            </div>
+            <form class="buscador clearfix">
+                <input type="text" name="buscar" id="buscar" value="Búsqueda de producto" required>
+                <button type="submit">Buscar</button>
+            </form>
         </header>
         <div class="contieneslider clearfix">
             <div class="banner">
             <ul>
-                <li class="banner-img1">
-                    <h1>The jQuery slider that just slides.</h1>
-                    <p>No fancy effects or unnecessary markup, and it’s less than 3kb.</p>
+                <li class="bg1">
                     
-                    <a class="btn" href="#download">Download</a>
+                    <div class="text-banner">
+                        <h1>Aportamos nuestra experiencia y la tecnología</h1>
+                        <p><span class="rojo">que le permiten optimizar sus procesos</span></p>
+                        <a class="btn" href="quienes.html">Conozca más</a>
+                    </div>
+                    
+                    
                 </li>
                 
-                <li style="background-image: url('img/wood.jpg');">
-                    <h1>Fluid, flexible, fantastically minimal.</h1>
-                    <p>Use any HTML in your slides, extend with CSS. You have full control.</p>
-                    
-                    <a class="btn" href="#download">Download</a>
+                
+                <li class="bg3">
+                    <div class="text-banner">
+                        <h1>Metalmecánica</h1>
+                        <p><span class="rojo">Tecnología de punta en equipos de soldar, de corte por plasma, láser y oxigas, automatismos, extracción de humos, tortugas, mesas de corte, pantógrafos y robótica.</span></p>
+                        <a class="btn" href="metalmecanica.html">Ver productos</a>
+                    </div>
+                </li>
+
+                <li class="bg2">
+                    <div class="text-banner">
+                        <h1>Ambiental</h1>
+                        <p><span class="rojo">Instrumentos de alta precisión para la medición de parámetros climatológicos e hidrométricos, así como para el control de la calidad del aire y del agua. Redes con comunicación via UHF, VHF, Satelital, Celular etc.</span></p>
+                        <a class="btn" href="ambiental.html">Ver productos</a>
+                    </div>
                 </li>
                 
-                <li style="background-image: url('img/subway.jpg');">
-                    <h1>Open-source.</h1>
-                    <p>Everything to do with Unslider is hosted on GitHub.</p>
-                    
-                    <a class="btn" href="//github.com/idiot/unslider">Contribute</a>
-                </li>
-                
-                <li style="background-image: url('img/shop.jpg');">
-                    <h1>Uh, that’s about it.</h1>
-                    <p>I just wanted to show you another slide.</p>
-                    
-                    <a class="btn" href="#download">Download</a>
+                <li class="bg4">
+                    <div class="text-banner">
+                        <h1>Eléctrico</h1>
+                        <p><span class="rojo">Todo en aditamentos para señalización.</span></p>
+                        <a class="btn" href="metalmecanica.html">Ver productos</a>
+                    </div>
                 </li>
             </ul>
         </div>
         </div>
         <div class="contenido clearfix">
             <div class="cols">
-                <div class="col1">Col 1</div>
-                <div class="col2">Col 2</div>
-                <div class="col3">Col 3</div>
+                <div class="col1">
+                    <div class="picture-col"><img src="img/bkcol1.jpg" alt="una imagen"></div>
+                    <h2>Metalmecánica</h2>
+                    <p>Tecnología de punta en equipos de soldar, de corte por plasma, láser y oxigas, automatismos, extracción de humos, tortugas, mesas de corte, pantógrafos y robótica.</p>
+                    <a class="boton" href="#">Leer más...</a>
+                </div>
+                <div class="col2">
+                    <div class="picture-col"><img src="img/bkcol1.jpg" alt="una imagen"></div>
+                    <h2>Ambiental</h2>
+                    <p>Instrumentos de alta precisión para la medición de parámetros climatológicos e hidrométricos, así como para el control de la calidad del aire y del agua. Redes con comunicación via UHF, VHF, Satelital, Celular etc.</p>
+                    <a class="boton" href="#">Leer más...</a>
+                </div>
+                <div class="col3">
+                    <div class="picture-col"><img src="img/bkcol1.jpg" alt="una imagen"></div>
+                    <h2>Eléctrico</h2>
+                    <p>Flejes en acero inoxidable y hebillas tipo AISI 200/300 y AISI 201 respectivamente. Acoples en Acero Inoxidable para mangueras. Todo en aditamentos para señalización.</p>
+                    <a class="boton" href="#">Leer más...</a>
+                </div>
             </div>
         </div>
+        <footer class="footer clearfix">
+            <nav class="inf">
+                <ul class="menu-inf">
+                    <li><a class="menu-item-inf" href="quienes.html">Quienes Somos</a></li>
+                    <li><a class="menu-item-inf" href="metalemcanica.html">Metalmecánica</a></li>
+                    <li><a class="menu-item-inf" href="ambiental.html">Ambiental</a></li>
+                    <li><a class="menu-item-inf" href="electrico.html">Eléctrico</a></li>
+                    <li><a class="menu-item-inf" href="servicio.html">Servicio y Soporte</a></li>
+                    <li><a class="menu-item-inf" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="q"></div>
+            <div class="tels">
+                <p><span class="rojo">Bogotá D.C. :</span> 257500 <span class="rojo">| Fax: </span> 2567026 <span class="rojo"> - Cali:</span> 310 2630874 - 314 8615904 <p>
+                <p><span class="rojo">Medellín | Eje Cafetero: </span> 314 8615904 
+                <span class="rojo"> - Zona Caribe | Barrancabermeja:</span> 310 3290682 </p>
 
+            </div>
+            <div class="dir"><p>Cra 53 No. 103b - 39 | Bogotá d.c. - Colombia.</p></div>
+            
+        </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
@@ -92,7 +135,8 @@
             $('.banner').unslider({
                 fluid: true,
                 dots: true,
-                speed: 500
+                speed: 1000,
+                delay: 6000,
             });
         
             //  Find any element starting with a # in the URL
