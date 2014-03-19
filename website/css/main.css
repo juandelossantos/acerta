@@ -148,7 +148,7 @@ nav.sup {
     margin-left: -6px;
     text-transform: uppercase;
     color: #333333;
-    font-weight: bold;
+    
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -165,7 +165,7 @@ nav.sup {
     text-transform: uppercase;
     background-color:#9d0021;
     color: #fff;
-    font-weight: bold;
+    
     -webkit-box-shadow: 2px 2px 4px 0px rgba(150, 130, 132, 0.75);
     -moz-box-shadow:    2px 2px 4px 0px rgba(150, 130, 132, 0.75);
     box-shadow:         2px 2px 4px 0px rgba(150, 130, 132, 0.75);
@@ -362,7 +362,7 @@ nav.sup {
 }
 
 .picture-col {
-    width: 80%;
+    width: 60%;
     margin:10px auto;
 }
 
@@ -503,6 +503,7 @@ nav.inf{
     font-size: 18px;
     line-height: 24px;
     text-align: center;
+    background-color: #a5a5a5;
     
     color: rgba(255,255,255,.6);
     text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
@@ -832,7 +833,7 @@ nav.inf{
         margin-left: -6px;
         text-transform: uppercase;
         color: #333333;
-        font-weight: bold;
+        
         transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
         -webkit-transition: all 0.5s ease;
@@ -849,7 +850,7 @@ nav.inf{
         text-transform: uppercase;
         background-color:#9d0021;
         color: #fff;
-        font-weight: bold;
+       
         -webkit-box-shadow: 2px 2px 4px 0px rgba(150, 130, 132, 0.75);
         -moz-box-shadow:    2px 2px 4px 0px rgba(150, 130, 132, 0.75);
         box-shadow:         2px 2px 4px 0px rgba(150, 130, 132, 0.75);
@@ -866,7 +867,7 @@ nav.inf{
         text-transform: uppercase;
         background-color:#9d0021;
         color: #fff;
-        font-weight: bold;
+       
     }
 
     .buscador {
