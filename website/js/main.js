@@ -561,11 +561,11 @@
 
             $.each($slides, function (key, slide) {
 
-                var caption = $(slide).children('img:first-child').attr('title');
+                var caption = $(slide).children('img:first-child').attr('alt');
 
                 // Account for images wrapped in links
                 if(!caption){
-                    caption = $(slide).children('a').find('img:first-child').attr('title');
+                    caption = $(slide).children('a').find('img:first-child').attr('alt');
                 }
 
                 if (caption) {
