@@ -18,7 +18,7 @@
 if(isset($_POST['email'])) {
 
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "sierra.emilio@gmail.com";
+$email_to = "jklopstock@acerta.com.co";
 $email_subject = "Mail desde la Pagina de aterizaje de ACERTA/AEROGO";
 
 // Aquí se deberían validar los datos ingresados por el usuario
@@ -47,10 +47,10 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
 
-echo "¡El formulario se ha enviado con éxito!";
+echo '<p style="text-align: center">¡El formulario se ha enviado con éxito!</p>';
 }
 ?>
-<div><a class="boton" href="http://www.huitacadigital.com/acerta/aerogo">Volver</a></div>
+<div class="boton"><a href="http://www.acerta.com.co/aerogo">Volver</a></div>
 </div>
 </body>
 </html>
