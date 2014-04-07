@@ -118,7 +118,7 @@ body {
 
 }
 .center {
-    margin:5px auto; 
+    margin:5px auto;
     text-align:center;
     width: 80%;
 }
@@ -129,7 +129,7 @@ body {
     padding-top: 10px; height: 0; overflow: hidden;
     text-align: center;
 }
- 
+
  .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -144,8 +144,8 @@ body {
     display: block;
     width:80%;
     margin:10px auto;
-    font-weight: 400; 
-    
+    font-weight: 400;
+
 }
 
 
@@ -179,6 +179,7 @@ p {
 .formulario {
     display: inline-block;
     width:100%;
+    margin:0 auto;
     height: auto;
     background-color: #2d2d2d;
     color: #fff;
@@ -186,16 +187,19 @@ p {
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
+}
+.formulario h2 {
+  text-align:center;
 }
 
-.formulario label, 
+.formulario label,
 .formulario input,
 .formulario textarea{
     display: block;
-    float:left;
+    margin:0 auto;
     clear: both;
-    width: 100%;
+    width: 50%;
     padding: 3px;
 
 }
@@ -205,14 +209,16 @@ p {
 }
 
 .formulario input[type="submit"]{
-    display: inline-block;
+    display: block;
     width:30%;
     margin:5px auto;
-    float: right;
+    text-align:center;
     background-color: #fff;
     color:#9d0021;
     font-size: 1.3em;
-    text-transform: uppercase; 
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
 
@@ -421,7 +427,7 @@ p {
     }
 
     .center {
-        margin:0px auto; 
+        margin:0px auto;
         text-align:center;
         width: 100%;
     }
@@ -430,7 +436,7 @@ p {
         display: block;
         width:90%;
         margin:0 auto;
-        font-weight: 300; 
+        font-weight: 300;
     }
 
 
@@ -454,5 +460,44 @@ p {
     .img-articulo img {
         width: 100%;
     }
-   
+
+    .formulario {
+        display: inline-block;
+        width:100%;
+        height: auto;
+        background-color: #2d2d2d;
+        color: #fff;
+        font-weight: 300;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .formulario label,
+    .formulario input,
+    .formulario textarea{
+        display: block;
+        float:left;
+        clear: both;
+        width: 100%;
+        padding: 3px;
+
+    }
+    .formulario input,
+    .formulario textarea{
+        color:#333;
+    }
+
+    .formulario input[type="submit"]{
+        display: inline-block;
+        width:30%;
+        margin:5px auto;
+        float: right;
+        background-color: #fff;
+        color:#9d0021;
+        font-size: 1.3em;
+        text-transform: uppercase;
+    }
+
 }

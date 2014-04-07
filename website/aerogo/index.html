@@ -26,14 +26,14 @@
             <div class="logo"><img src="img/logo.png" alt="Acerta LTDA"></div>
             <div class="slogan">Aportamos experiencia y tecnología para optimizar sus procesos.</div>
         </header>
-        
+
         <div class="contenido clearfix">
             <div class="center">
                 <div class="video-container">
                     <iframe width="420" height="315" src="//www.youtube.com/embed/hbm1HAnjhRM?list=UULkT2B6TDl3aA5EJv73HRuQ" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-            
+
         <div class="articulo">
             <p>Uno de los mayores retos en el mundo es el de mover cargas pesadas de manera ágil, fácil, eficiente y segura.</p>
             <div class="img-tit"></div>
@@ -48,25 +48,27 @@
         </div>
         <div class="formulario">
             <h2> Escribanos para recibir más información</h2>
-            <form>
+            <form name="landingForm" id="landingForm" method="post" action="envia.php">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <input type="text" id="nombre" name="nombre" >
                 <label for="empresa">Empresa:</label>
-                <input type="text" id="empresa" name="empresa" required>
-                <label for="teléfono">Teléfono:</label>
-                <input type="text" id="teléfono" name="teléfono" required>
+                <input type="text" id="empresa" name="empresa" >
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" >
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" >
                 <label for="mensaje">Mensaje:</label>
-                <textarea rows="6" required></textarea>
+                <textarea rows="6"  name="mensaje" id="mensaje"></textarea>
                 <input type="submit" id="nombre" name="nombre" value="enviar">
             </form>
         </div>
         <footer class="footer clearfix">
-            
-            
+
+
             <div class="tels">
-                <p><span class="rojo">Bogotá D.C. :</span> 2575000 <span class="rojo">| Fax: </span> 2567026 <span class="rojo"> - Cali:</span> 310 2630874 - 314 8615904 <p>
-                <p><span class="rojo">Medellín | Eje Cafetero: </span> 314 8615904 
-                <span class="rojo"> - Zona Caribe | Barrancabermeja:</span> 310 3290682 </p>
+                <p><span class="rojo">Bogotá D.C. :</span> 2575000 <span class="rojo">| Fax: </span> 2567026 <span class="rojo"> - Cali:</span> (318) 343 9282 - (310) 263 0874 <p>
+                <p><span class="rojo">Medellín | Eje Cafetero: </span> 314) 861 5904 - (310) 428 3044
+                <span class="rojo"> - Zona Caribe | Barrancabermeja:</span> (318) 3439400 </p>
                 <p><span class="rojo">Dirección: </span> Cra 53 No. 103b - 39 | Bogotá D.C. - Colombia.</p>
 
             </div>
@@ -76,7 +78,8 @@
         <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
         <script src="../js/plugins.js"></script>
         <script src="../js/main.js"></script>
-        
+        <script src="../js/vendor/validaLanding.js"></script>
+
               <!-- fin del script slider fade -->
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
