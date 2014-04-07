@@ -118,7 +118,7 @@ body {
 
 }
 .center {
-    margin:5px auto;
+    margin:30px auto;
     text-align:center;
     width: 80%;
 }
@@ -175,6 +175,21 @@ body {
 p {
     text-align: justify;
 }
+
+a .boton {
+  display: block;
+  width:30%;
+  margin:5px auto;
+  text-align:center;
+  background-color: #9d0021;
+  color:#fff;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
 
 .formulario {
     display: inline-block;

@@ -5,6 +5,15 @@
   <link rel="stylesheet" href="landing.css">
 </head>
 <body>
+  <header class="header clearfix">
+      <div class="logo"><img src="img/logo.png" alt="Acerta LTDA"></div>
+      <div class="slogan">Aportamos experiencia y tecnología para optimizar sus procesos.</div>
+  </header>
+
+  <div class="contenido clearfix">
+      <div class="center">
+
+
 <?php
 if(isset($_POST['email'])) {
 
@@ -41,3 +50,7 @@ $headers = 'From: '.$email_from."\r\n".
 echo "¡El formulario se ha enviado con éxito!";
 }
 ?>
+<div><a class="boton" href="http://www.huitacadigital.com/acerta/aerogo">Volver</a></div>
+</div>
+</body>
+</html>
