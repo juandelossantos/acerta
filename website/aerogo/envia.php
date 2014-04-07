@@ -52,5 +52,17 @@ echo '<p style="text-align: center">¡El formulario se ha enviado con éxito!</p
 ?>
 <div class="boton"><a href="http://www.acerta.com.co/aerogo">Volver</a></div>
 </div>
+<footer class="footer clearfix">
+
+
+    <div class="tels">
+        <p><span class="rojo">Bogotá D.C. :</span> 2575000 <span class="rojo">| Fax: </span> 2567026 <span class="rojo"> - Cali:</span> (318) 343 9282 - (310) 263 0874 <p>
+        <p><span class="rojo">Medellín | Eje Cafetero: </span> 314) 861 5904 - (310) 428 3044
+        <span class="rojo"> - Zona Caribe | Barrancabermeja:</span> (318) 3439400 </p>
+        <p><span class="rojo">Dirección: </span> Cra 53 No. 103b - 39 | Bogotá D.C. - Colombia.</p>
+
+    </div>
+    
+</footer>
 </body>
 </html>
