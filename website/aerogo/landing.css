@@ -506,12 +506,12 @@ p {
 
     .formulario input[type="submit"]{
         display: inline-block;
-        width:30%;
+        width:150px;
         margin:5px auto;
         float: right;
         background-color: #fff;
         color:#9d0021;
-        font-size: 1.3em;
+        font-size: 1.1em;
         text-transform: uppercase;
     }
 

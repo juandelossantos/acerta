@@ -132,7 +132,7 @@ nav.sup {
     display:block;
     width:100%;
     height: 40px;
-    background-color: #4f4f4f;
+    background-color: #9d0021;
     box-shadow: 0 1px 1px rgba(0,0,0,.4);
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4);
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4);
@@ -140,7 +140,7 @@ nav.sup {
     .menu-sup {
         display: inline-block;
         text-align: center;
-        background-color: #4f4f4f;
+        background-color: #9d0021;
         margin: 0;
         
     }
@@ -163,12 +163,13 @@ nav.sup {
             }
 
             .menu-sup li:hover {
-                background-color: #9d0021;
+                background-color: #4f4f4f;
             }
 
                 .menu-item {
                     display: block;
                     font-size: .8em;
+                    font-weight: 700;  
                     color: #fff;
                     text-decoration: none;
                     text-transform: uppercase;
@@ -178,7 +179,7 @@ nav.sup {
                 }
 
                 .menu-act{
-                   background-color: #9d0021;
+                   background-color: #4f4f4f;
                 }
 
 
@@ -285,7 +286,6 @@ nav.sup {
 #banner-slide{
     margin-bottom: 60px;
 }
-
 
 ul.bjqs-controls.v-centered li a{
     display:block;
@@ -417,7 +417,7 @@ box-shadow:         0px -1px 5px 0px rgba(50, 50, 50, 0.75);
 nav.inf{
     margin:0 auto;
     text-align: center;
-     background: #4f4f4f;
+     background: #9d0021;
     color: #fff;
     border-bottom: 1px solid #878787;
 }
@@ -451,7 +451,7 @@ nav.inf{
     display: inline-block;
     padding: 5px;
     text-transform: uppercase;
-    background-color:#9d0021;
+    background-color:#4f4f4f;
 }
 .tels {
     display:block;

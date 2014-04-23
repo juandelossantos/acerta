@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="ES">
+<html lang="es">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="landing.css">
 </head>
 <body>
@@ -62,7 +63,7 @@ echo '<p style="text-align: center">¡El formulario se ha enviado con éxito!</p
         <p><span class="rojo">Dirección: </span> Cra 53 No. 103b - 39 | Bogotá D.C. - Colombia.</p>
 
     </div>
-    
+
 </footer>
 </body>
 </html>
