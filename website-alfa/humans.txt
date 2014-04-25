@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    David Emilio Sierra Puentes -- Frontend web developer - freelance -- @morrisonking
+
+# THANKS
+
+    Visual Idiot - Unslider project - http://visualidiot.com/work - @idiot
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    unslider.com

@@ -3,14 +3,13 @@
 
 # TEAM
 
-    David Emilio Sierra Puentes -- Frontend web developer - freelance -- @morrisonking
+    <name> -- <role> -- <twitter>
 
 # THANKS
 
-    Visual Idiot - Unslider project - http://visualidiot.com/work - @idiot
+    <name>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
-    unslider.com
