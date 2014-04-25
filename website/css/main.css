@@ -142,7 +142,7 @@ nav.sup {
         text-align: center;
         background-color: #9d0021;
         margin: 0;
-        
+
     }
     .menu-sup ul {
         display: inline-block;
@@ -168,14 +168,13 @@ nav.sup {
 
                 .menu-item {
                     display: block;
-                    font-size: .8em;
-                    font-weight: 700;  
+                    font-size: 1em;
                     color: #fff;
                     text-decoration: none;
                     text-transform: uppercase;
                      -webkit-font-smoothing: antialiased;
                     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-                    
+
                 }
 
                 .menu-act{
@@ -316,9 +315,9 @@ ol.bjqs-markers li a:hover{
 p.bjqs-caption{
     background: rgba(157, 0, 33, 0.8);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     color:#fff;
-    
+
     text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 }
 .caption {
@@ -333,7 +332,7 @@ p.bjqs-caption{
     float:right;
     margin: 10px auto;
     padding: 7px 15px;
-    background-color: #fff;    
+    background-color: #fff;
     color: #333;
     font-size: .8em;
     font-weight: bold;
@@ -408,7 +407,7 @@ p.bjqs-caption{
     display: block;
     width: 100%;
     height: auto;
-   
+
     -webkit-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px -1px 5px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         0px -1px 5px 0px rgba(50, 50, 50, 0.75);
@@ -444,7 +443,7 @@ nav.inf{
     font-weight: 300;
     font-size: .9em;
     color: #fff;
-    
+
 }
 .menu-item-inf:hover  {
     text-decoration: none;
@@ -483,10 +482,17 @@ nav.inf{
     color:#9d0021;
 }
 
+.btn-col {
+  display: inline-block;
+  margin-bottom:0;
+  width:100%;
+  /*border: 1px solid #333;*/
+}
+
 .boton {
     display: block;
     width: 90%;
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
     padding: 9px 22px 7px;
     clear: both;
@@ -524,7 +530,7 @@ ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
 ol.bjqs-markers.h-centered{text-align: center;}
 ol.bjqs-markers li{display:inline;}
 ol.bjqs-markers li a{display:inline-block;}
-p.bjqs-caption{width:100%;margin:0;padding:2%;position:absolute;bottom:0;}
+p.bjqs-caption{width:100%;margin:0;padding:1% 2%;position:absolute;bottom:0;}
 
 
 
@@ -612,15 +618,15 @@ p.bjqs-caption{width:100%;margin:0;padding:2%;position:absolute;bottom:0;}
     /* Style adjustments for viewports that meet the condition */
 }
 @media only screen and (min-width : 769px) and (max-width : 1280px) {
-   
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 480px) and (max-width : 768px) {
-   
+
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 480px) {
-   
+
 }
 
 
