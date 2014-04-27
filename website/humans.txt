@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    David Emilio Sierra Puentes -- Full Stack Web Developer -- @morrisonking
 
 # THANKS
 
-    <name>
+    John Cobb -- http://www.johncobb.name -- @john0514 -- Basic Jquery Slider
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, PHP
     Normalize.css, jQuery, Modernizr
+    Basic jQuery Slider plug-in v.1.3 -- http://www.basic-slider.com
