@@ -20,7 +20,7 @@
 	function cambiafondo(id) {
 		var clase = id;
 		var nombreClase = document.getElementById(clase);
-		var url = "url('http://192.168.0.10/acerta/website2/img/";
+		var url = "url('../website2/img/";
 		var nombreImg = id + "-img";
 		var tipoImg = ".jpg";
 		
@@ -35,8 +35,9 @@
 			nombreClase.style.transition = "all 0.6s ease";
 			
 			if(segundo == 3){
-				clearInterval(timer);
-				console.log('termino el conteo');
+				segundo = 0;
+				//clearInterval(timer);
+				//console.log('reinicia conteo');
 			}	
 		}, 4000);
 

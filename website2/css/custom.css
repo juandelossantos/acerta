@@ -291,7 +291,7 @@ header {
 	display: block;
 	width: 100%;
 	height: 450px;
-	background: url('../img/sec-ambiental-bk.jpg') no-repeat left top;
+	background: url('../img/desc-ambiental-sec-img1.jpg') no-repeat left top;
 	background-position: 0px 30px;
 	
 }
@@ -310,7 +310,7 @@ header {
 	display: block;
 	width: 100%;
 	height: 450px;
-	background: url('../img/sec-industrial-bk.jpg') no-repeat left top;
+	background: url('../img/desc-industrial-sec-img1.jpg') no-repeat left top;
 	background-position: 0px 30px;
 }
 
@@ -375,7 +375,7 @@ footer {
 
 .contiene-footer {
 	display: block;
-	width: 100%;
+	width: 1170px;
 	color: #fff;
 	font-family: 'PT Sans', sans-serif;
 	margin: 0 auto;
@@ -396,4 +396,24 @@ footer {
 	text-transform: uppercase;
 	font-weight: normal;
 	margin-left: 15%;
+}
+
+.col-footer ul {
+	list-style: none;
+	color: #fff;
+	font-size: 0.9em;
+}
+
+.col-footer ul li a{
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+
+}
+
+.col-footer ul li a:hover {
+	text-decoration: underline;
 }
