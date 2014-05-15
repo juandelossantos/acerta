@@ -11,9 +11,9 @@
 	var fondoIndustrialBtn = document.getElementById('sec-industrial');
 
 	// clase+"-img"+i+".jpg"
-	
 
-	
+
+
 	function ver() {
 	'use strict';
 
@@ -23,32 +23,32 @@
 		var url = "url('../website2/img/";
 		var nombreImg = id + "-img";
 		var tipoImg = ".jpg";
-		
+
 		var segundo=1;
 
 		var timer = setInterval(function(){
 			segundo++;
-			
+
 			var fullUrl = url+nombreImg+segundo+tipoImg+"')";
-			
+
 			nombreClase.style.backgroundImage=fullUrl;
 			nombreClase.style.transition = "all 0.6s ease";
-			
+
 			if(segundo == 3){
 				segundo = 0;
 				//clearInterval(timer);
 				//console.log('reinicia conteo');
-			}	
+			}
 		}, 4000);
 
 
-		
+
 	};
 
 	cambiafondo('desc-metal-sec');
 
 	metalBtn.onclick = function() {
-		
+
 
 		fondoMetalBtn.style.backgroundColor = "#e74c3c";
 		fondoAmbientalBtn.style.backgroundColor = "#ecf0f1";
@@ -63,7 +63,7 @@
 
 
 
-		
+
 	};
 
 	ambientalBtn.onclick = function() {
@@ -92,12 +92,12 @@
 		cambiafondo('desc-industrial-sec');
 	};
 
-	
-	
-	
+
+
+
 };
 function init() {
-		
+
 		ver();
 
 
