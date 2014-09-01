@@ -1,0 +1,245 @@
+/********** GUIA DE COLORES **********
+HEADER: #ebf3f9
+TITULOS: #0b506a
+
+
+********** FIN GUIA *****************/
+
+/** ESTILOS GENERALES **/
+
+body {
+  background-color: #fff;
+  font-family: 'Exo', sans-serif;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  margin-top: 0;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #ebf3f9;
+  background-color: rgba(235, 243, 249, .95);
+  box-shadow: 0 2px 5px 0 rgba(50, 50, 50, .75);
+  z-index: 100;
+}
+h1,
+h2,
+h3 {
+  color: #0b506a;
+}
+section {
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+nav {
+  display: block;
+  height: 51px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+nav > ul {
+  float: right;
+}
+nav > ul > li {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: #000;
+}
+nav > ul > li > a:hover {
+  border-bottom: 2px solid #b00d28;
+}
+/** ESTILOS PARTICULARES **/
+
+.btn {
+  background-color: #0b506a;
+  color: #fff;
+  height: 45px;
+  width: 80%;
+  margin-top: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.75);
+  -webkit-transition: ease all 0.1s;
+  transition: ease all 0.1s;
+}
+
+.btn:hover {
+  background-color: #0789b7;
+  box-shadow: none;
+}
+.contiene-section {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.inicio,
+.metalmecanica,
+.ambiental,
+.industrial,
+.contacto {
+  position: relative;
+  box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.75);
+}
+.inicio {
+  background-color: #fff;
+  background-image: url('../img/bg_fold.jpg');
+  background-size: 100%;
+  background-position: 0 60%;
+  background-attachment: fixed;
+  /*padding-top: 60px;*/
+}
+.inicio .main-title {
+  display: inline-block;
+  font-size: 2.5em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  color: #0b506a;
+  background-color: #eaf4fa;
+  background-color: rgba(234, 244, 250, .6);
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding: 0 20px;
+}
+.logo {
+  width: 388px;
+  height: 73px;
+  background-image: url('../img/logoAcerta.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.iconos {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+[class*='icon-'] {
+  display: inline-block;
+  width: 220px;
+  padding: 0 30px;
+}
+.nav-seccion {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  text-align: center;
+}
+.metalmecanica,
+.ambiental,
+.industrial {
+  padding-top: 60px;
+  height: auto;
+}
+.contiene-section {
+  margin-bottom: 100px;
+}
+.info-seccion {
+  width: 33%;
+  text-align: center;
+  float: left;
+  clear: rigth;
+}
+.info-seccion p {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+.info-seccion a {
+  text-decoration: none;
+}
+.boton-seccion {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 5px;
+  line-height: 40px;
+  height: 40px;
+  font-size: 1.2em;
+}
+.color-metal {
+  border: 2px solid #9d0021;
+  color: #fff;
+  background-color: #ef3833;
+}
+.color-ambiental {
+  border: 2px solid #004e6c;
+  color: #fff;
+  background-color: #00abed;
+}
+.color-industrial {
+  border: 2px solid #005103;
+  color: #fff;
+  background-color: #009f02;
+}
+.slider-seccion {
+  text-align: center;
+}
+.bg-ambiental,
+.bg-metalmecanica,
+.bg-industrial {
+  height: 400px;
+  overflow: hidden;
+  background-color: #2d2d2d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  box-shadow: inset 0 3px 5px 0 rgba(50, 50, 50, 0.75);
+}
+.bg-metalmecanica {
+  background-image: url('../img/bg-metal.jpg');
+}
+.bg-ambiental {
+  background-image: url('../img/bg-ambiental.jpg');
+}
+.bg-industrial {
+  background-image: url('../img/bg-industrial.jpg');
+}
+/** FORMULARIOS **/
+
+.contacto {
+  background-color: #ebf3f9;
+  height: auto;
+  max-height: 768px;
+  padding-bottom: 30px;
+}
+.contiene-contacto {
+  display: block;
+  height: auto;
+  margin-left: 10px;
+}
+.contacto-home {
+  margin: 0 auto;
+  width: 50%;
+  float: left;
+}
+.contacto-home label,
+input,
+textarea {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.mapa-home {
+  display: block;
+  width: 48%;
+  float: right;
+  margin-right: 20px;
+}
