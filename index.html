@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Exo:300,400,500' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/custom.css">
   <script src="js/vendor/modernizr-2.8.0.min.js"></script>
@@ -43,17 +44,17 @@
   <div class="contenedor">
     <section class="inicio">
       <div class="contiene-section">
-        <div class="logo"></div>
-        <h1 class="main-title">Aportamos experiencia y tecnología</h1>
-        <h1 class="main-title">para optimizar sus procesos.</h1>
+        <div class="logo animated fadeInRightBig"></div>
+        <h1 class="main-title animated bounceInLeft" id="tit1">Aportamos experiencia y tecnología</h1>
+        <h1 class="main-title animated bounceInLeft" id="tit2">para optimizar sus procesos.</h1>
         <div class="iconos clearfix">
-          <div class="icon-metal">
+          <div class="icon-metal animated fadeIn" id="icon-metal">
             <img src="img/icon-metal.png" alt="metalmecánica">
           </div>
-          <div class="icon-ambiental">
+          <div class="icon-ambiental animated fadeIn" id="icon-ambiental">
             <img src="img/icon-ambiental.png" alt="ambiental">
           </div>
-          <div class="icon-industrial">
+          <div class="icon-industrial animated fadeIn" id="icon-industrial">
             <img src="img/icon-industrial.png" alt="industrial">
           </div>
         </div>
@@ -131,6 +132,7 @@
     <section class="contacto">
       <div class="contiene-contacto">
         <h2>CONTACTO</h2>
+        <p>Sus metas de optimización son nuestra responsabilidad. Consúltenos.</p>
         <form action="" method="post" id="contacto-home" class="contacto-home">
         <fieldset>
           <div>
@@ -165,8 +167,45 @@
     </section>
   </div>
   <!--fin contenedor-->
-  <footer>
-    Footer
+  <footer class="clearfix">
+    <div class="datos-footer">
+      <div class="site-map">
+        <h3>Mapa del Sitio</h3>
+        <a href="">Inicio</a>
+        <a href="">Nosotros</a>
+        <a href="">Servicio y Soporte</a>
+        <a href="">Contacto</a>
+        <a href="">Buscar</a>
+      </div>
+      <div class="info-contacto">
+        <h3>Datos de Contacto</h3>
+        <ul>
+          <li><h4>Bogotá D.C.</h4></li>
+            <ul>
+              <li>PBX: 57 1 257 5000</li>
+              <li>FAX: 57 1 256 7026</li>
+            </ul>
+          <li><h4>Medellín</h4></li>
+            <ul>
+              <li>TEL: 314 861 5904</li>
+              <li>TEL: 310 428 3044</li>
+            </ul>
+          <li><h4>CALI</h4></li>
+            <ul>
+              <li>TEL: 318 343 9282</li>
+              <li>TEL: 310 263 0874</li>
+            </ul>
+          <li><h4>Eje Cafetero</h4></li>
+            <ul>
+              <li>TEL: 314 861 5904</li>
+            </ul>
+          <li><h4>Zona Caribe</h4></li>
+            <ul>
+              <li>TEL: 318 343 9400</li>
+            </ul>
+        </ul>
+      </div>
+    </div>
   </footer>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>
