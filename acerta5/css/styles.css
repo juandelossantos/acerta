@@ -1,3 +1,19 @@
+/* ----------------paleta de Colores ----------------------------------------
+Verde Ambiental Oscuro: #72a240 - rgba(114, 162, 64, 1)
+Verde Ambiental Claro: #7baf45 - rgba(123, 175, 69, 1)
+
+
+Gris Metalmecánica Oscuro: #58585b - rgba(88, 88, 91, 1)
+Gris Metalmecánica Claro: #6d6e70 - rgba(109, 110, 112, 1)
+
+Amarillo Industrial Oscuro: #f29c1f - rgba(242, 156, 31, 1)
+Amarillo Industrial Claro: #ffb94b - rgba(255, 185, 75, 1)
+
+Rojo Acerta Oscuro = #aa0024 - rgba(170, 0, 36, 1)
+Rojo Acerta Claro = #ee2316 - rgba(238, 35, 22, 1)
+
+------------------- fin paleta de Colores -----------------------------------*/
+
 /* Estilos Generales */
 
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
@@ -12,13 +28,13 @@ body {
 header {
   display: block;
   position: fixed;
-  
+
   top: 0;
   left: 0;
 
   width: 100%;
   height: 80px;
-  
+
   clear: both;
 
   z-index: 2000;
@@ -33,7 +49,7 @@ footer {
   width: 100%;
   height: 40px;
 
-  background-color: rgba(157,0,33, 0.7);
+  background-color: rgba(170, 0, 36, .8);
   color: #fff;
 
   font-weight: 300;
@@ -78,9 +94,9 @@ footer a:hover {
   float: right;
   margin-right: 5%;
   margin-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: rgba(157,0,33, 0.4);
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(170, 0, 36, .6);
   border-radius: 10px;
 }
 
@@ -91,18 +107,26 @@ footer a:hover {
 .general-nav ul li {
   float: left;
   line-height: 60px;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .general-nav a {
+  display: block;
   color: #fff;
+  height: 60px;
+  padding: 0 5px;
+  line-height: 60px;
   text-decoration: none;
+  -webkit-transition: all 500ms ease;
+          transition: all 500ms ease;
 }
 
 .general-nav a:hover {
-  color: #fff;
-  border-bottom: 3px solid #fff;
+  /*color: #58585b;*/
+  line-height: 60px;
+  background-color: rgba(170, 0, 36, 1);
 }
+
 
 .contenido {
   position: absolute;
@@ -124,7 +148,6 @@ footer a:hover {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -143,7 +166,7 @@ footer a:hover {
   height: 100px;
   border: 10px solid #fff;
   color: #fff;
-  background-color: rgba(149, 165, 166,.6);
+  background-color: rgba(88, 88, 91, 1);
   text-align: center;
   font-size: 61px;
   line-height: 100px;
@@ -161,7 +184,7 @@ footer a:hover {
   padding-right: 20px;
   margin-left: 60px;
   margin-top: -110px;
-  background-color: rgba(149, 165, 166,.6);
+  background-color: rgba(88, 88, 91, .8);
   border-bottom: 1px solid #888;
   border-top: 1px solid #888;
   border-right: 1px solid #888;
@@ -173,7 +196,7 @@ footer a:hover {
 }
 
 .tit-menu-metal:hover {
-  background-color: rgba(149, 165, 166,.8);
+  background-color: rgba(109, 110, 112, .8);
 }
 
 .sub-menu-metal {
@@ -189,7 +212,7 @@ footer a:hover {
 
 .sub-menu-metal ul li {
   list-style: none;
-  background-color: rgba(149, 165, 166,.6);
+  background-color: rgba(88, 88, 91, .8);
   border-bottom: 1px solid #888;
   border-right: 1px solid #888;
   border-left: 1px solid #888;
@@ -200,7 +223,7 @@ footer a:hover {
 
 .sub-menu-metal ul li:hover {
   padding-left: 35%;
-  background-color: rgba(149, 165, 166,.2);
+  background-color: rgba(109, 110, 112, .8);
 }
 
 .sub-menu-metal a {
@@ -223,7 +246,7 @@ footer a:hover {
   height: 100px;
   border: 10px solid #fff;
   color: #fff;
-  background-color: rgba(39, 174, 96,.6);
+  background-color: rgba(114, 162, 64, 1);
   text-align: center;
   font-size: 60px;
   line-height: 100px;
@@ -241,7 +264,7 @@ footer a:hover {
   padding-right: 20px;
   margin-left: 61px;
   margin-top: -110px;
-  background-color: rgba(39, 174, 96,.6);
+  background-color: rgba(114, 162, 64, .8);
   border-bottom: 1px solid #888;
   border-top: 1px solid #888;
   border-right: 1px solid #888;
@@ -252,7 +275,7 @@ footer a:hover {
 }
 
 .tit-menu-ambiental:hover {
-  background-color: rgba(39, 174, 96,.8);
+  background-color: rgba(123, 175, 69, .8);
 }
 
 .sub-menu-ambiental {
@@ -268,7 +291,7 @@ footer a:hover {
 
 .sub-menu-ambiental ul li {
   list-style: none;
-  background-color: rgba(39, 174, 96,.6);
+  background-color: rgba(114, 162, 64, .8);
   border-bottom: 1px solid #888;
   border-right: 1px solid #888;
   border-left: 1px solid #888;
@@ -279,7 +302,7 @@ footer a:hover {
 
 .sub-menu-ambiental ul li:hover {
   padding-left: 35%;
-  background-color: rgba(39, 174, 96,.2);
+  background-color: rgba(123, 175, 69, .8);
 }
 
 .sub-menu-ambiental a {
@@ -303,7 +326,7 @@ footer a:hover {
   height: 100px;
   border: 10px solid #fff;
   color: #fff;
-  background-color: rgba(241, 196, 15,.6);
+  background-color: rgba(242, 156, 31, 1);
   text-align: center;
   font-size: 60px;
   line-height: 100px;
@@ -321,7 +344,7 @@ footer a:hover {
   padding-right: 20px;
   margin-left: 60px;
   margin-top: -110px;
-  background-color: rgba(241, 196, 15,.6);
+  background-color: rgba(242, 156, 31, .8);
   border-bottom: 1px solid #888;
   border-top: 1px solid #888;
   border-right: 1px solid #888;
@@ -332,12 +355,12 @@ footer a:hover {
 }
 
 .tit-menu-industrial:hover {
-  background-color: rgba(241, 196, 15,.8);
+  background-color: rgba(255, 185, 75, .8);
 }
 
 .sub-menu-industrial {
   position: relative;
-  display: none; 
+  display: none;
   float: right;
   width: 317px;
   margin-top: -8px;
@@ -347,7 +370,7 @@ footer a:hover {
 
 .sub-menu-industrial ul li {
   list-style: none;
-  background-color: rgba(241, 196, 15,.6);
+  background-color: rgba(242, 156, 31, .8);
   border-bottom: 1px solid #888;
   border-right: 1px solid #888;
   border-left: 1px solid #888;
@@ -358,7 +381,7 @@ footer a:hover {
 
 .sub-menu-industrial ul li:hover {
   padding-left: 35%;
-  background-color: rgba(241, 196, 15,.2);
+  background-color: rgba(255, 185, 75, .8);
 }
 
 .sub-menu-industrial a {
