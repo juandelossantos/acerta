@@ -386,12 +386,12 @@ footer a:hover {
 
 .sub-menu-industrial a {
   color: #fff;
-  text-decoration: none;;
+  text-decoration: none;
 }
 
 #slides {
   color: #fff;
-  text-align: center;
+  text-align: right;
 }
 
 #slides p {
@@ -399,11 +399,11 @@ footer a:hover {
 }
 
 #slides h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 #slides h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .slides-navigation a {
@@ -413,4 +413,25 @@ footer a:hover {
 
 .slides-navigation a:hover{
   color:#fff;
+}
+
+.arriba {
+  top: 35%;
+  -webkit-transform: translateY(-35%);
+  -ms-transform: translateY(-35%);
+  transform: translateY(-35%);
+}
+
+.medio {
+  top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+.abajo {
+  top: 65%;
+-webkit-transform: translateY(-65%);
+-ms-transform: translateY(-65%);
+transform: translateY(-65%);
 }

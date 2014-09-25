@@ -50,11 +50,7 @@ body {
   float: right;
   margin-right: 8%;
   position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  min-height: 190px;
+  min-height: 100px;
   padding: 30px;
   background: white;
   rgba(157,0,33, 0.4);
