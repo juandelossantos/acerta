@@ -127,6 +127,21 @@ footer a:hover {
   background-color: rgba(170, 0, 36, 1);
 }
 
+.internal-nav {
+  background-color: rgba(170, 0, 36, 1);
+}
+
+.internal-nav a:hover{
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.internal-nav a.active {
+  background-color: rgba(0, 0, 0, .2);
+  height: 60px;
+  line-height: 40px;
+}
+
 
 .contenido {
   position: absolute;
