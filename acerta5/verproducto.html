@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/sliderproducto.css">
+	<noscript>
+		<link rel="stylesheet" href="css/noscript.css">
+	</noscript>
+	<title>Acerta</title>
+</head>
+<body>
+	<div class="contenedor">
+    <header class="clearfix internal-header">
+      <div class="logo"><img src="img/logoAcerta.png" alt=""></div>
+      <nav class="general-nav internal-nav">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="acercadeacerta.html">NOSOTROS</a></li>
+          <li><a href="productos.html" class="active">PRODUCTOS</a></li>
+          <li><a href="#">SERVICIO</a></li>
+          <li><a href="#">DISTRIBUCIONES</a></li>
+          <li><a href="#">CONTACTO</a></li>
+          <li><a href="#">BUSCAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contenido margen-abajo">
+      <h1 class="tit1">Productos &gt; Ambiental &gt; Medidor de Caudal </h1>
+			<div class="contiene-productos">
+				<div class="menu-productos">
+					<ul class="nav-productos">
+						<li><a href="" class="boton-peq">Todos</a></li>
+						<li>
+							<a href="" class="boton-peq btn-metal" id="btn-menu-metal">Metalmecánica</a>
+							<ul class="submenu-metal">
+								<li><a href="">Item 1</a></li>
+								<li><a href="">Item 2</a></li>
+								<li><a href="">Item 3</a></li>
+								<li><a href="">Item 4</a></li>
+								<li><a href="">Item 5</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="" class="boton-peq btn-ambiental" id="btn-menu-ambiental">Ambiental</a>
+							<ul class="submenu-ambiental">
+								<li><a href="">Item 1</a></li>
+								<li><a href="">Item 2</a></li>
+								<li><a href="">Item 3</a></li>
+								<li><a href="">Item 4</a></li>
+								<li><a href="">Item 5</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="" class="boton-peq btn-industrial" id="btn-menu-industrial">Industrial</a>
+							<ul class="submenu-industrial">
+								<li><a href="">Item 1</a></li>
+								<li><a href="">Item 2</a></li>
+								<li><a href="">Item 3</a></li>
+								<li><a href="">Item 4</a></li>
+								<li><a href="">Item 5</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="grid-productos">
+					<div class="img-producto-grande">
+						<img src="img/productos/producto-grande1.jpg" alt="">
+					</div>
+					<div class="datos-producto">
+						<h2>Medidor de Caudal</h2>
+						<h3>Ref: RiverRay ADCP</h3>
+						<h4>Especificaciones</h4>
+						<ul>
+							<li>Patented Phased Array Technology-600kHz</li>
+							<li>Auto adaptive set up / data collection</li>
+							<li>Velocity Profiling Range: 0.4m – 60m</li>
+							<li>Wireless Bluetooth communications</li>
+						</ul>
+						<a href="contacto.html" class="boton-grande boton-abajo boton-grande-inverso">Solicitar Información</a>
+					</div>
+					<div class="detalles-producto">
+						tabs con los detalles del producto
+					</div>
+				</div>
+			</div>
+    </div>
+    <br>&nbsp;<br>&nbsp;<br>
+    <footer>
+      Acerta LTDA. &copy; 2014 &nbsp;&nbsp; Bogotá D.C. - Colombia. &nbsp; | &nbsp;&nbsp;   <i class="fa fa-phone"></i>&nbsp; 57 1 2575000  &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;<i class="fa fa-map-marker"></i>&nbsp; Cra 53 No. 103 B - 39. &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;<i class="fa fa-paper-plane"></i>&nbsp;&nbsp;<a href="mailto:info@acerta.com.co">info@acerta.com.co</a>
+    </footer>
+	</div>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.eislideshow.js"></script>
+  	<script src="js/jquery.easing.1.3.js"></script>
+  	<script type="text/javascript">
+            $(function() {
+                $('#ei-slider').eislideshow({
+					animation			: 'center',
+					autoplay			: true,
+					slideshow_interval	: 3000,
+					titlesFactor		: 0
+                });
+            });
+    </script>
+    <script>
+    $('#btn-menu-metal').click(function() {
+      $('.submenu-metal').slideToggle('fast');
+        return false;
+    });
+    $('#btn-menu-ambiental').click(function() {
+      $('.submenu-ambiental').slideToggle('fast');
+        return false;
+    });
+    $('#btn-menu-industrial').click(function() {
+      $('.submenu-industrial').slideToggle('fast');
+        return false;
+    });
+    </script>
+</body>
+</html>
