@@ -1034,7 +1034,6 @@ div#detalle-similar {
 .contiene-marcas nav a {
   display: inline-block;
   text-transform: uppercase;
-  letter-spacing: 5px;
   padding: 40px 30px 30px 34px;
   position: relative;
   color: #888;
